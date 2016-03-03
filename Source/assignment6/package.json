@@ -1,0 +1,25 @@
+{
+  "name": "lab6",
+  "description": "An example to showcase a REST server with MongoDB (Mongolab) & Restify",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-cli": "^0.1.2",
+    "karma-jasmine": "^0.3.7",
+    "mongojs": "^2.3.0",
+    "restify": "^4.0.4"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "mongojs": "^2.3.0",
+    "restify": "^4.0.4"
+  }
+}
